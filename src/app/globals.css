@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    background-color: rgba(197, 1, 247, 0.432);
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h3, p {
+  margin: 0;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #f4e3ff, #fff5b8);
+}
